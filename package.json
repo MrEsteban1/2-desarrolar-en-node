@@ -5,7 +5,10 @@
   "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js",
-    "dev": "nodemon src/app.js"
+    "dev": "nodemon src/app.js",
+    "test": "jest",
+    "test:watch": "jest --coverage",
+    "test:coverage": "jest --coverage"
   },
   "author": "esteban gonzalez",
   "license": "ISC",
@@ -14,7 +17,8 @@
     "jest": "^29.7.0",
     "nodemon": "^3.1.9",
     "supertest": "^7.1.0",
-    "ts-jest": "^29.3.1"
+    "ts-jest": "^29.3.1",
+    "ts-node": "^10.9.2"
   },
   "dependencies": {
     "axios": "^1.8.2",

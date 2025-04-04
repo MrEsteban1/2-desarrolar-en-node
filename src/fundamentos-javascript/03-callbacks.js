@@ -1,6 +1,6 @@
 const superHeroes = ['superman', 'batman', 'spiderman', 'thor']
 
-function encontrarSuperHeroe(nombre,callback){
+function encontrarSuperHeroe(nombre,callback, manejarError=false){
     const superHeroe = superHeroes.find(dato => dato === nombre)
     let error
 

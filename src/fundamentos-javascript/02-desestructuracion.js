@@ -11,5 +11,6 @@ const {nombre} = superHeroe
 
 module.exports = {
     nombre:nombre,
-    enemigo: enemigo
+    enemigo: enemigo,
+    enemigos
 }
